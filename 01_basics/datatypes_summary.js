@@ -1,9 +1,9 @@
 // Primitive Datatypes
 
 
-// 7 types : String ,Numer, Boolean, null ,undefined,symbol,BigInt
+// 7 types : String ,Number, Boolean, null ,undefined,symbol,BigInt
 
-/*const score= 100;
+const score= 100;
 const scoreValue= 100.3;
 
 const isLoggedIn = false
@@ -14,7 +14,7 @@ let userEmail = undefined
 const id = Symbol("123")
 const anotherId =Symbol("123")
 
-console.log(id == anotherId);*/
+console.log(id == anotherId);
 
 //const bigNumber=46464669464867486n
 
@@ -37,3 +37,35 @@ const myFunction=function(){
 }
 
 console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(Pimitive) will get a copy
+//  Heap(non-primitive) will get a reference i.e whatever the changes will do we will be doing in the original value
+
+let myYoutubename =" Thousandworlds"
+ let anothername =myYoutubename
+
+ anothername="chaiaurcode"
+
+
+   console.log(myYoutubename);
+ console.log(anothername);
+
+
+ let userOne = {
+    email: "user@gmail.com",
+    upi:"user@ybl"
+ }
+
+ let userTwo = userOne
+
+
+ userTwo.email= "hitesh@google.com"
+
+ console.log(userOne.email)
+ console.log(userTwo.email)
+
+
+
+
