@@ -1,19 +1,14 @@
-
-
 let a =300
 if(true){   
 let a=10
 const b =20
- 
 }
-
 // console.log(a);
 // console.log("INNER:",a);     //10
 // console.log(a); //300 
 
 function one(){
-    const username = "kashif"
-    
+    const username = "kashif" 
     function two(){
         const website = "kashif.com"
         console.log(username);
