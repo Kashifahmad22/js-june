@@ -7,7 +7,7 @@
 // }
 
 
-Switch statement
+switch statement
     const month = "march";
 
 switch (month) {
