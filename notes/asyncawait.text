@@ -1,0 +1,14 @@
+// blocking code 
+blocks the flow of the program
+read file syncronously
+
+untill the file is read the program is blocked 
+
+//NOn-Blocking code
+        does not block the execution
+        example: suppose you get a data from an user and
+        you have to store it in the database then give a
+        success message here the success message will
+        be delivered without considering whether the
+            data has been write or not and if error occurs
+            it will be not responsible
