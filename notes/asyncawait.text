@@ -10,5 +10,5 @@ untill the file is read the program is blocked
         you have to store it in the database then give a
         success message here the success message will
         be delivered without considering whether the
-            data has been write or not and if error occurs
-            it will be not responsible
+          data has been write or not and if error occurs
+          it will be not responsible
