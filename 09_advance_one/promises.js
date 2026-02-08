@@ -90,7 +90,16 @@ consumePromiseFive();
 
 // getAllUsers();
 
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/hiteshchoudhary')  //fetch returns a promise, so we can use then and catch on it.
+// fettch is stored in global scope, so we can use it anywhere in our code. 
+// It is used to make network requests and it returns a promise that resolves to the response of the request.
+//  It is used to fetch data from a server and it is a modern replacement for XMLHttpRequest. 
+// It is also used to send data to a server and it is a part of the Fetch API. 
+// It is supported in all modern browsers and it is also available in Node.js.          
+//when fetch is called, it returns a promise that resolves to the response of the request.it gets divided into two parts, first part is the response and second part is the data. we can use then to get the response and then use another then to get the data from the response.
+//data is in json format, so we need to use response.json() to get the data in json format. response.json() also returns a promise, so we can use then to get the data from the response.
+//on fulfillment of the promise, we get the response and then we can use response.json() to get the data from the response. response.json() also returns a promise, so we can use then to get the data from the response. if there is any error in the fetch request, we can catch it using catch.
+//on rejection of the promise, we can catch the error using catch and log it to the console.
 .then((response) => {
     return response.json()
 })
